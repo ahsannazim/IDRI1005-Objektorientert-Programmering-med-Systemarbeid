@@ -1,0 +1,91 @@
+--- Informasjon som må sendes av blodgiver én gang -----
+	- Fornavn + mellomnavn
+	- Etternavn
+	- Fødselsnr (int(11))
+	- Postadresse (kan endres?)
+	- Tlf privat
+	- Tlf mobil
+	- Tlf arbeid
+	- epost
+	- Tillater du at blodbanken sender deg epost?
+	- Tillater du at blodbanken sender deg sms?
+--------------------------------------------------------
+
+--- Informasjon som må sendes av blodgiver hver gang ---
+
+	--- Venligst besvar ---
+	- Har du fått informasjon om blodgiving?
+	- Føler du deg frisk nå?
+	- Hvis du har gitt blod tidligere, har du vært frisk i perioden fra forrige bldgivning til når?
+	- Veier du 50kg eller mer
+	- Har du åpne sår, eksem eller hudsykdom?
+	- Har du piercing i slimhinne?
+
+	--- Har du i løpet av de siste fire uker ---
+	- brukt medisiner?
+	- vært syk eller hatt feber?
+	- hatt løs avføring?
+	- fått vaksine?
+	- vært hos tannlege eller tannpleier?
+
+	--- Har du i løpet av de siste seks måneder ---
+	- vært til legeundersøkelse eller på sykehus, eller fått behandling for noen sykdom?
+	- fått behandling med sprøyter?
+	- hatt kjønnssykdom, eller fått behandling for kjønnssykdom?
+	- hatt seksuell kontakt med person med HIVinfeksjon eller hepatitt B eller hepatitt C, eller med person som har hatt positiv test for en av disse sykdommene?
+	- hatt seksuell kontakt med person som bruker eller har brukt dopingmidler eller narkotiske midler som sprøyter?
+	- hatt seksuell kontakt med prostituerte eller tidligere prostituerte?
+	- blitt tatovert, fått piercing eller tatt hull i ørene?
+	- fått akupunktur?
+	- stukket eller skåret deg på gjenstander som var forurenset med blod eller kroppsvæsker?
+	- bodd i samme husstand som en person som har hepatitt B?
+	- fått blodsøl på slimhinner eller skadet hud?
+	- blitt bitt av flått?
+	- hatt seksualpartner som har bodd mer enn ett år sammenhengende utenfor Vest-Europa ?
+	- hatt seksualpartner som har vært i Afrika?
+	- hatt seksuell kontakt med en person som har fått blod eller blodprodukter utenfor Norden?
+	- hatt ny seksualpartner?
+	- vært utenfor Vest-Europa?
+
+	--- Har du i løpet av de siste to år ---
+	- hatt sjeldne eller alvorlige infeksjonssykdommer?
+
+	--- Har du på noe tidspunkt gjennom livet ---
+	- hatt, hjerte-, lever-, eller lungesykdom?
+	- hatt kreft?
+	- hatt blødningstendens?
+	- hatt allergi mot mat eller medisiner?
+	- hatt malaria?
+	- hatt tropesykdommer?
+	- hatt hepatitt (gulsott), HIV-infeksjon eller AIDS?
+	- fått bloadoverføring?
+	- fått veksthormon?
+	- fått hornhinnetransplantat?
+	- hatt syfilis?
+	- hatt alvorlig sykdom som ikke er nevnt her?
+	- brukt dopingmidler eller narkotiske midler som sprøyter?
+	- mottat penger eller narkotika som gjenytelse for sex?
+
+	--- Besvares av kvinner ---
+	- er du gravid?
+	- har du vært gravid i løpet av de siste tolv måneder, eller ammer du nå?
+	- hvis du har gikk blod tidligere, har du vært gravid siden forrige blodgivning?
+	- Har du i løpet av de siste seks måneder hatt seksuell kontakt med en mann som du vet har hatt seksuell kontakt med andre menn?
+
+	--- Besvares av menn ---
+	- Har eller har du hatt seksull kontakt med andre menn?
+
+	--- Besvar også (annet)---
+	- Har du brukt narkotika en eller flere ganger de siste 12 måneder?
+	- Har du eller noen i familien hatt Creutzfeldt-Jakob sykdom eller variant CJD?
+	- Har du oppholdt deg i Storbritannia i mer enn ett år til sammen i perioden mellom 1980 og 1996?
+	- Har du i løpet av de siste tre år vært i områder dermalaria forekommer?
+	- Har du oppholdt deg sammenhengende i minst seksmåneder i områder der malaria forekommer?
+	- Har du oppholdt deg i Afrika i mer enn fem år til sammen?
+	- Er du eller din mor født i Amerika sør for USA?
+	- Godtar du at anonymiserte prøver av ditt blod kan brukes til forskning? Du er like velkommen som blodgiver enten du svarer ja eller nei. Blodbanken kan gi informasjon om aktuelle forskningsprosjekter.
+	- Har du deltatt i medikamentforsøk de siste 12 måneder?
+	- Jeg samtykker i at mitt plasma føres ut av Norge for legemiddelproduksjon.
+	- I hvilke(t) land er du født og oppvokst? [textfield]
+
+--------------------------------------------------------

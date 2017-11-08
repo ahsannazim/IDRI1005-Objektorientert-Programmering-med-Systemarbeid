@@ -1,0 +1,45 @@
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe.config
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.vbprojResolveAssemblyReference.cache
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Resources.resources
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.vbproj.GenerateResource.Cache
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.pdb
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.exe
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.pdb
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Splash.resources
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Main.resources
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe.CodeAnalysisLog.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe.lastcodeanalysissucceeded
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\AudiopoLib.dll
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\MySql.Data.dll
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\AudiopoLib.pdb
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\AudiopoLib.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\MySql.Data.xml
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe.config
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.pdb
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.xml
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe.CodeAnalysisLog.xml
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\Gruppe21-Prosjekt-Alpha.exe.lastcodeanalysissucceeded
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\AudiopoLib.dll
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\MySql.Data.dll
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\AudiopoLib.pdb
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\AudiopoLib.xml
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\bin\Debug\MySql.Data.xml
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.vbprojResolveAssemblyReference.cache
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.BlodgiverDashboard.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.LoggInn_Admin.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Main.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Resources.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Skjema.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Splash.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Timeoversikt.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.vbproj.GenerateResource.Cache
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.exe
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.xml
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21-Prosjekt-Alpha.pdb
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.LoginBlodgiver.resources
+C:\Users\Andreas Ore Larssen\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.blodgiverDashboard2.resources
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\Gruppe21-Prosjekt-Alpha\obj\Debug\Gruppe21_Prosjekt_Alpha.Unlock.resources

@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA024B46-86ED-4956-AF25-0D6D016E5568}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Gruppe21_Prosjekt_Alpha.My.MyApplication</StartupObject>
+    <RootNamespace>Gruppe21_Prosjekt_Alpha</RootNamespace>
+    <AssemblyName>Gruppe21-Prosjekt-Alpha</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Gruppe21-Prosjekt-Alpha.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Gruppe21-Prosjekt-Alpha.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>Off</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AudiopoLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AudiopoLib\AudiopoLib\bin\Debug\AudiopoLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminCredentials.vb" />
+    <Compile Include="AdminUnlock.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AnsattDashboardTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AnsattLoggInnTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BlodBeholder.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BorderControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseCredentials.vb" />
+    <Compile Include="EgenerklæringTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatList.vb" />
+    <Compile Include="Footer.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlobalControl.vb" />
+    <Compile Include="Globals.vb" />
+    <Compile Include="HemoGlobeLogo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InfoLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiTabWindow.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NotifQueueTest.vb" />
+    <Compile Include="OpprettAnsattTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PaintMessageHelper.vb" />
+    <Compile Include="PieChart.vb" />
+    <Compile Include="CryptoServiceProvider.vb" />
+    <Compile Include="RedigerProfilTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimebestillingTab.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TopBar.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Unlock.Designer.vb">
+      <DependentUpon>Unlock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unlock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserNotifications.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unlock.resx">
+      <DependentUpon>Unlock.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\OpenSans-Light.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HemoGlobe_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Blodbank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HemoLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EgenerklaeringIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HjemIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoggUtIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedigerProfilIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeBestillingIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firmalogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeBestillingIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoggUtIcon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadingLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firmalogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOADING.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedigerProfilIcon - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doktor1%27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OKIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AvbrytIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doktor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoktorPassord.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpprettKontoInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeiTakkIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NesteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NyLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForrigeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OKIconHvit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EgenerklæringTekst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeTabellInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PicLoggInn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bekreftelseImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoadingLogoFinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoTekstDashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Full_beholder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tom_beholder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Meldingsboks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klokke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rør.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeedleArt.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

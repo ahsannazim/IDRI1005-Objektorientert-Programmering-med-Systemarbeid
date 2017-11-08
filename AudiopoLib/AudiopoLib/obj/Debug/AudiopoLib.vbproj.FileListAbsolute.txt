@@ -1,0 +1,11 @@
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\obj\Debug\AudiopoLib.vbprojResolveAssemblyReference.cache
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\obj\Debug\AudiopoLib.Resources.resources
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\obj\Debug\AudiopoLib.vbproj.GenerateResource.Cache
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\bin\Debug\AudiopoLib.dll
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\bin\Debug\AudiopoLib.pdb
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\bin\Debug\AudiopoLib.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\bin\Debug\MySql.Data.dll
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\bin\Debug\MySql.Data.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\obj\Debug\AudiopoLib.dll
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\obj\Debug\AudiopoLib.xml
+C:\Users\Magnus\Documents\GitHub\Gruppe21-prosjekt\Gruppe21-prosjekt\AudiopoLib\AudiopoLib\obj\Debug\AudiopoLib.pdb

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AudiopoLib
+</name>
+</assembly>
+<members>
+<member name="T:AudiopoLib.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AudiopoLib.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AudiopoLib.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:AudiopoLib.CustomCalendar">
+ <summary>
+ A highly customizable calendar control. For interaction with individual calendar days, handle the Click, MouseEnter and MouseLeave events.
+ </summary>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.WeekHeader.GetLabel(System.Int32)">
+ <summary>
+ Gets the header label displaying the name of the specified day of the week.
+ </summary>
+ <param name="DayOfTheWeek">Zero-based index of the day of the week (Monday = 0)</param>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.SetDayNames(System.String[],System.Boolean)">
+ <summary>
+ Replaces the default names for Monday through Sunday with the specified string array.
+ </summary>
+ <param name="Names">An array of string representing the days of the week, starting with Sunday and ending with Saturday.</param>
+ <param name="Refresh">Specifies whether or not to call the RefreshCalendar method. Specify False if several methods with this optional parameter are called in succession</param>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.ApplyCustomStyle(System.DateTime[],System.Int32,System.Boolean)">
+ <summary>
+ Applies the specified custom style (that has been added using the 
+ </summary>
+ <param name="Dates"></param>
+ <param name="StyleKey"></param>
+ <param name="Refresh">Specifies whether or not to call the RefreshCalendar method. Specify False if several methods with this optional parameter are called in succession</param>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.RemoveCustomStyle(System.Int32,System.Boolean,System.Boolean)">
+ <summary>
+ Use this method if all dates with a given custom style should be reset to the default style.
+ </summary>
+ <param name="StyleKey"></param>
+ <param name="RemoveFromDictionary">If true, removes the custom style from the dictionary. If the style is to be used again, it must be added again.</param>
+ <param name="Refresh">Specifies whether or not to call the RefreshCalendar method. Specify False if several methods with this optional parameter are called in succession</param>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.RemoveCustomStyle(System.DateTime[],System.Boolean)">
+ <summary>
+ Use this (slow) method if only some dates with a given style should be reset to the default style.
+ </summary>
+ <param name="Dates">The dates that have a custom style applied to them that should be removed.</param>
+   ''' <param name="Refresh">Specifies whether or not to call the RefreshCalendar method. Specify False if several methods with this optional parameter are called in succession</param>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.Show(System.Boolean,System.Boolean)">
+ <summary>
+ Shows the calendar without calling the Display method. Stylistic changes to the calendar only get applied if the Display method has been shown.
+ </summary>
+ <param name="Refresh">Specifies whether or not to call the RefreshCalendar method. Specify True if stylistic changes have been made to the calendar while it was hidden.</param>
+ <param name="SuppressDisplay">Specifies whether or not to display the form if it has not already been displayed (not recommended).</param>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.Show">
+ <summary>
+ If the Display method has not yet been called, displays the calendar. If the Display method has been called, shows the calendar without calling RefreshCalendar.
+ </summary>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.Display">
+ <summary>
+ Applies changes and displays the calendar. Call this method the first time the calendar is shown. Changes to the calendar may not display correctly unless this method has been called.
+ </summary>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.ArrowColorDefault">
+ <summary>
+ Gets or sets the color of the next and previous buttons when they are not hovered.
+ </summary>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.ArrowColorHover">
+ <summary>
+ Gets or sets the color of the next and previous buttons when they are hovered.
+ </summary>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.CurrentMonth">
+ <summary>
+ Gets the number of the currently displaying month, or sets which month to display.
+ </summary>
+ <returns>An integer value between 1 and 12 (inclusive).</returns>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.AutoShrink">
+ <summary>
+ Specifies whether or not the SizeToContent method should be automatically called as necessary.
+ </summary>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.SizeToContent">
+ <summary>
+ Sets the width and height of the calendar to the right and bottom edges of its elements.
+ </summary>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.RefreshCalendar">
+ <summary>
+ Applies changes to the calendar. Call this method only if exceptional circumstances causes the calendar to display incorrectly.
+ </summary>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.DrawGradient">
+ <summary>
+ Specifies whether or not to draw subtle gradients on the Calendar's days. The initial and final color are determined by the CalendarDay's BackColor property. Default = False.
+ </summary>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.Day(System.DateTime)">
+ <summary>
+ Gets the CalendarDay control currently representing the specified date.
+ </summary>
+ <returns>The CalendarDay displaying the specified date, or Nothing if the date is not included in the current view.</returns>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.Day(System.Int32)">
+ <summary>
+ Gets the CalendarDay at the specified index (going left to right, including days in the previous and next month's area, if any).
+ </summary>
+ <param name="Index">An integer value between 0 and 41 inclusive.</param>
+ <returns>The CalendarDay at the specified index (going left to right, including days in the previous and next month's area, if any).</returns>
+</member>
+<member name="P:AudiopoLib.CustomCalendar.Days">
+ <summary>
+ Gets an array of all 42 CalendarDay controls, which include both visible and hidden days.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:AudiopoLib.CustomCalendar.AddCustomStyle(System.Int32,AudiopoLib.CustomCalendar.CalendarDayStyle)">
+ <summary>
+ Adds the specified custom style to a dictionary, so that it can be applied with the specified key using the ApplyCustomStyle method.
+ </summary>
+ <param name="Key">A unique key that can be used to identify the style when it is applied.</param>
+ <param name="Style">The style to be applied to specific dates.</param>
+</member>
+<member name="T:AudiopoLib.EaseInOut">
+ <summary>
+ Provides functions to be used in conjunction with a timer to achieve an easing animation.
+ </summary>
+</member>
+<member name="M:AudiopoLib.EaseInOut.GetY(System.Double,System.Double,System.Int32,System.Int32)">
+ <summary>
+ Given an initial value, a final value, the current timer tick and the final timer tick, returns the value to assign to the eased property or number.
+ </summary>
+ <param name="InitialY">The initial to ease in from.</param>
+ <param name="GoalY">The final value to ease out to.</param>
+ <param name="CurrentX">The number of timer ticks that have elapsed.</param>
+ <param name="LastX">The number of timer ticks that have elapsed + the number of timer ticks that will elapse.</param>
+ <returns>A double with the eased value.</returns>
+</member>
+<member name="M:AudiopoLib.FormFieldStyle.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean[],System.Int32)">
+ <summary>
+ Initializes a new FormFieldStyle with the specified colors.
+ </summary>
+</member>
+<member name="M:AudiopoLib.FormFieldStyle.#ctor">
+ <summary>
+ Initializes a new FormFieldStyle with the default colors.
+ </summary>
+</member>
+<member name="P:AudiopoLib.MenuManager`1.MenuAtIndex(System.String)">
+ <summary>
+ Returns the ListMenu associated with the specified key (string) in the MenuManager's dictionary.
+ </summary>
+ <param name="Key">If specified, the string or name associated with the ListMenu.</param>
+ <returns>The ListMenu associated with the specified key.</returns>
+</member>
+<member name="P:AudiopoLib.MenuManager`1.MenuAtIndex(System.Int32)">
+ <summary>
+ Returns the ListMenu associated at the specified index in the MenuManager's dictionary, usually following the order in which ListMenus were added to or created within the manager.
+ </summary>
+ <param name="Index">The index of the ListMenu in the dictionary.</param>
+ <returns>The ListMenu associated with the specified key.</returns>
+</member>
+<member name="P:AudiopoLib.MySqlUserLogin.IfInvalid">
+ <summary>
+ Address of a method that accepts a boolean value indicating whether or not an error occurred.
+ </summary>
+</member>
+<member name="M:AudiopoLib.Notification.#ctor(System.Windows.Forms.Control,AudiopoLib.NotificationAppearance,System.String,System.Double,System.Action{AudiopoLib.Notification},AudiopoLib.FloatX,AudiopoLib.FloatY,System.Int32,AudiopoLib.NotificationBackgroundTransition,AudiopoLib.NotificationTextTransition)">
+ <summary>
+ Creates a new notification to be displayed. In most cases, this should be automatically done by a NotificationManager.
+ </summary>
+ <param name="ParentControl">The container (usually a Form) in which the notification is to appear in.</param>
+ <param name="Appearance">The appearance of the notification. Pass presets using the NotificationPreset class.</param>
+</member>
+<member name="T:AudiopoLib.NotificationManager">
+ <summary>
+ Dynamically creates, displays and disposes of notifications. Notifications should usually be shown using this class or a class that implements it.
+ </summary>
+</member>
+<member name="P:AudiopoLib.NotificationManager.AssignedLayoutManager">
+ <summary>
+ (Advanced) Gets or sets the FormLayoutTools instance associated with this NotificationManager, that will respond to the displaying of notifications and automatically resize the top 'reserved area' correspondingly.
+ </summary>
+ <returns>Returns the FormLayoutTools instance associated with the NotificationManager, or Nothing if none is specified.</returns>
+</member>
+<member name="P:AudiopoLib.NotificationManager.Parent">
+ <summary>
+ Gets or sets the parent control (usually a Form) in which this NotificationManager will display its notifications.
+ </summary>
+</member>
+<member name="M:AudiopoLib.NotificationManager.#ctor(System.Windows.Forms.Control)">
+ <summary>
+ Creates a new NotificationManager.
+ </summary>
+ <param name="Parent">The parent control (usually a Form) in which this NotificationManager will display its notifications.</param>
+</member>
+<member name="M:AudiopoLib.NotificationManager.Display(System.String,AudiopoLib.NotificationAppearance,System.Double,AudiopoLib.FloatX,AudiopoLib.FloatY)">
+ <summary>
+ Displays the notification in the parent.
+ </summary>
+ <param name="Message">The message to display in the notification.</param>
+ <param name="Duration">The notification's duration in seconds before fading out. 0 means no time limit (must be closed by the user).</param>
+</member>
+<member name="M:AudiopoLib.NotificationManager.Dispose">
+ <summary>
+ Releases the resources used by this NotificationManager. This should be done when the NotificationManager is no longer needed.
+ </summary>
+</member>
+</members>
+</doc>

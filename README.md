@@ -1,2 +1,2 @@
 # IDRI1005 Objektorientert Programmereing med Systemarbeid
-# Gruppe21-prosjekt
+Visual Basic Prosjekt våren 2017
